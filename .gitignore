@@ -14,6 +14,7 @@ gen/
 out/
 obj/
 packages/
+.vs/
 
 # Gradle files
 .gradle/
@@ -39,3 +40,5 @@ captures/
 
 # Keystore files
 *.jks
+
+*.suo

@@ -5,7 +5,13 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TlsApp", "TlsApp.csproj", "{18D06A2C-3330-4370-9254-A12B559EBEAA}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "..\Shared\Shared.shproj", "{30B5E802-58F8-48A4-8016-7AA2FA8C22D9}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Shared\Shared.projitems*{18d06a2c-3330-4370-9254-a12b559ebeaa}*SharedItemsImports = 4
+		..\Shared\Shared.projitems*{30b5e802-58f8-48a4-8016-7aa2fa8c22d9}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
